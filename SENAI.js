@@ -1,4 +1,3 @@
-/* Aula 20 MaiaQuiz  */
 
 let titulo = document.querySelector('h1')
 let instrucoes = document.querySelector('#instrucoes')
@@ -89,7 +88,7 @@ const q6 = {
     alternativaB : "Prenssa, dessecador, peneirador, sentrifuga",
     alternativaC : "Misturador, aerador, dosador, peneirador, exaustor",
     alternativaD : "Desmoldador, exaustor, dessecador, misturador",
-    correta      : alternativaC,
+    correta      : "Misturador, aerador, dosador, peneirador, exaustor",
 }
 
 const q7 = {
@@ -99,7 +98,7 @@ const q7 = {
     alternativaB : "Este processo utiliza a força centrífuga do movimento circular da matriz para gerar a pressão metalostática que dará a forma ao tubo.",
     alternativaC : "Este processo utiliza a força centrífuga do movimento circular da matriz para gerar a pressão metalografica que dará a forma ao tubo.",
     alternativaD : "Este processo utiliza a força do movimento circular para gerar a pressão metalografica que dará a forma ao tubo.",
-    correta      : alternativaB,
+    correta      : "Este processo utiliza a força centrífuga do movimento circular da matriz para gerar a pressão metalostática que dará a forma ao tubo.",
 }
 
 const q8 = {
@@ -109,7 +108,7 @@ const q8 = {
     alternativaB : "criando um ângulo de saída no molde",
     alternativaC : "criando um ângulo de saída na peça",
     alternativaD : "Arredondando-se os cantos da peça",
-    correta      : alternativaA,
+    correta      : "Arredondando-se os cantos do lingote.",
 }
 
 const q9 = {
@@ -119,7 +118,7 @@ const q9 = {
     alternativaB : "Exaustor de finos",
     alternativaC : "Separador magnético",
     alternativaD : "Desmoldador",
-    correta      : alternativaC,
+    correta      : "Separador magnético",
 }
 
 const q10 = {
@@ -129,7 +128,7 @@ const q10 = {
     alternativaB : "Alívio de tensões",
     alternativaC : "Normalização",
     alternativaD : "Maleabilização",
-    correta      : alternativaD,
+    correta      : "Maleabilização",
 }
 
 const q11 = {
@@ -139,7 +138,7 @@ const q11 = {
     alternativaB : "permeabilidade",
     alternativaC : "compactabilidade",
     alternativaD : "Umidade",
-    correta      : alternativaC,
+    correta      : "compactabilidade",
 }
 
 const q12 = {
@@ -149,7 +148,7 @@ const q12 = {
     alternativaB : "FeS",
     alternativaC : "FeMn",
     alternativaD : "FeSiMg",
-    correta      : alternativaD,
+    correta      : "FeSiMg",
 }
 
 const q13 = {
@@ -159,7 +158,7 @@ const q13 = {
     alternativaB : "molde",
     alternativaC : "peça fundida",
     alternativaD : "modelo",
-    correta      : alternativaB,
+    correta      : "molde",
 }
 
 const q14 = {
@@ -169,7 +168,7 @@ const q14 = {
     alternativaB : "ângulos de saída",
     alternativaC : "redução de massa",
     alternativaD : "redução da contração",
-    correta      : alternativaD,
+    correta      : "redução da contração",
 }
 
 const q15 = {
@@ -179,7 +178,7 @@ const q15 = {
     alternativaB : "grafita",
     alternativaC : "cementita",
     alternativaD : "perlita",
-    correta      : alternativaC,
+    correta      : "cementita",
 }
 
 const q16 = {
@@ -189,7 +188,7 @@ const q16 = {
     alternativaB : "inferior",
     alternativaC : "superior e inferior",
     alternativaD : "superior e esquerda",
-    correta      : alternativaC,
+    correta      : "superior e inferior",
 }
 
 const q17 = {
@@ -199,7 +198,7 @@ const q17 = {
     alternativaB : "Água",
     alternativaC : "Amido de milho",
     alternativaD : "Bentonita",
-    correta      : alternativaD,
+    correta      : "Bentonita",
 }
 
 const q18 = {
@@ -209,7 +208,7 @@ const q18 = {
     alternativaB : "Ferro fundido nodular - 500 de limite de escoamento e 7 de alongamento",
     alternativaC : "Ferro fundido nodular - 500 de dureza e 7 de alongamento",
     alternativaD : "Ferro fundido cinzento - 500 de limite de resistência e 7 de alongamento",
-    correta      : alternativaA,
+    correta      : "Ferro fundido nodular - 500 de limite de resistência e 7 de alongamento",
 }
 
 const q19 = {
@@ -219,7 +218,7 @@ const q19 = {
     alternativaB : "Teor de manganês",
     alternativaC : "Teor de carbono",
     alternativaD : "Teor de silício",
-    correta      : alternativaC,
+    correta      : "Teor de carbono",
 }
 
 const q20 = {
@@ -229,7 +228,7 @@ const q20 = {
     alternativaB : "massalote",
     alternativaC : "chapelin",
     alternativaD : "filtro cerâmico",
-    correta      : alternativaB,
+    correta      : "massalote",
 }
 
 const q21 = {
@@ -239,7 +238,7 @@ const q21 = {
     alternativaB : "umidade",
     alternativaC : "composição química",
     alternativaD : "coquilhamento",
-    correta      : alternativaC,
+    correta      : "composição química",
 }
 
 const q22 = {
@@ -249,7 +248,7 @@ const q22 = {
     alternativaB : "3",
     alternativaC : "2",
     alternativaD : "4",
-    correta      : alternativaB,
+    correta      : "3",
 }
 
 const q23 = {
@@ -259,7 +258,7 @@ const q23 = {
     alternativaB : "amido de milho",
     alternativaC : "pó de carvão",
     alternativaD : "dextrina",
-    correta      : alternativaC,
+    correta      : "pó de carvão",
 }
 
 const q24 = {
@@ -269,7 +268,7 @@ const q24 = {
     alternativaB : "misturador",
     alternativaC : "peneirador",
     alternativaD : "dosador",
-    correta      : alternativaB,
+    correta      : "misturador",
 }
 
 const q25 = {
@@ -279,7 +278,7 @@ const q25 = {
     alternativaB : "casca",
     alternativaC : "vazio",
     alternativaD : "carapaça",
-    correta      : alternativaB,
+    correta      : "casca",
 }
 
 const q26 = {
@@ -289,7 +288,7 @@ const q26 = {
     alternativaB : "Compactabilidade",
     alternativaC : "Umidade",
     alternativaD : "Argila ativa",
-    correta      : alternativaC,
+    correta      : "Umidade",
 }
 
 const q27 = {
@@ -299,7 +298,7 @@ const q27 = {
     alternativaB : "gusa, retorno, sucata de aço e cobre",
     alternativaC : "gusa, retorno, sucata de aço e ferros liga",
     alternativaD : "gusa, retorno, sucata de aço e mgnésio",
-    correta      : alternativaC,
+    correta      : "gusa, retorno, sucata de aço e ferros liga",
 }
 
 const q28 = {
@@ -309,7 +308,7 @@ const q28 = {
     alternativaB : "carvão vergetal",
     alternativaC : "coque",
     alternativaD : "energia elétrica",
-    correta      : alternativaC,
+    correta      : "coque",
 }
 
 const q29 = {
@@ -319,7 +318,7 @@ const q29 = {
     alternativaB : "chamote",
     alternativaC : "olivina",
     alternativaD : "sílica",
-    correta      : alternativaD,
+    correta      : "sílica",
 }
 
 const q30 = {
@@ -329,7 +328,7 @@ const q30 = {
     alternativaB : "sopro, purgamento, mistura , extração e gasagem",
     alternativaC : "purgamento, mistura, sopro, gasagem e extração",
     alternativaD : "gasagem, sopro, mistura, extração e purgamento",
-    correta      : alternativaA,
+    correta      : "mistura, sopro, gasagem, purgamento e extração",
 }
 
 const q31 = {
@@ -339,12 +338,11 @@ const q31 = {
     alternativaB : "temperatura",
     alternativaC : "coquilhamento",
     alternativaD : "carbono equivalente",
-    correta      : alternativaB,
+    correta      : "temperatura",
 }
 
 // CONSTANTE COM UM ARRAY DE OBJETOS COM TODAS AS QUESTOES
-const questoes = [q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15,
-    q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28, q29, q30, q31]
+const questoes = [q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28, q29, q30, q31]
 
 let numero = document.querySelector('#numero')
 let total  = document.querySelector('#total')
