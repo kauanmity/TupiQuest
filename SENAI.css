@@ -11,11 +11,11 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
-    background: #4454dd;
-    color: rgb(255, 255, 255);
-	animation: color-change-2x 2s linear infinite alternate both;
+  width: 100vw;
+  height: 100vh;
+  background: #4454dd;
+  color: rgb(255, 255, 255);
+  animation: color-change-2x 2s linear infinite alternate both;
 }
 
 main {
@@ -24,15 +24,16 @@ main {
     padding: 1rem; /* espacamento interno */
 }
 @keyframes text-focus-in {
-    0% {
-      filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      filter: blur(0px);
-      opacity: 1;
-    }
+  0% {
+    filter: blur(12px);
+    opacity: 0;
   }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
 
 section {
     width: 100%;
@@ -49,6 +50,7 @@ section {
       background-position: 200% center;
     }
   }
+
 h1 {
     text-align: center;
     font-size: 1.75rem;
@@ -75,6 +77,24 @@ h1 {
 
 .centro {
     text-align: center;
+}
+
+#welcome{
+  width: 500px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#botaojogue {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
 }
 
 .questao {
