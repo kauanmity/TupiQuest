@@ -1,4 +1,4 @@
-
+document.getElementById('tela1').style.visibility = 'hidden'
 let titulo = document.querySelector('h1')
 let instrucoes = document.querySelector('#instrucoes')
 let aviso = document.querySelector('#aviso')
@@ -445,6 +445,7 @@ function verificarSeAcertou(nQuestao, resposta) {
     }, 250)
     desbloquearAlternativas()
 }
+let jogador = document.querySelector('.Nome')
 
 function fimDoJogo() {
     instrucoes.textContent = "Fim de Jogo!"
@@ -462,11 +463,30 @@ function fimDoJogo() {
         audiometademais.play()      
     }
 
+
     pontos == 0 ? pont = 'ponto' : pont = 'pontos'
 
     pergunta.textContent   = "Você conseguiu " + pontos + " " + pont
 
     aviso.textContent = "Você conseguiu " + pontos + " " + pont
+
+    let jogadorindo = {
+        "player": document.querySelector('#Nome').value,
+        "score": pontos||pont
+    }
+
+    fetch('http://localhost:3000/pontuacao', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(jogadorindo),
+        })
+        .then(response => response.json())
+        .catch(error => console.error('Error:', error))
+        .then(response => {
+            console.log('Success:', JSON.stringify(response))
+    });
 
     a.textContent = ""
     b.textContent = ""
