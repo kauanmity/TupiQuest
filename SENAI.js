@@ -341,8 +341,209 @@ const q31 = {
     correta      : "temperatura",
 }
 
+const q32 = {
+    numQuestao   : 32,
+    pergunta     : "Como podemos evitar na formação cristalina devido ao resfriamento do lingote, estruturas frágeis nos cantos?",
+    alternativaA : "Arredondando-se os cantos do lingote", //Esse
+    alternativaB : "Criando um ângulo de saída no molde",
+    alternativaC : "Arredondando-se os cantos da peça",
+    alternativaD : "Arredondando-se os cantos do molde",
+    correta      : "Arredondando-se os cantos do lingote",
+}
+
+const q33 = {
+    numQuestao   : 33,
+    pergunta     : " O que é contração sólida no metal vazado?",
+    alternativaA : " É a variação de volume que ocorre já no estado sólido, desde a temperatura do fim da solidificação até a temperatura ambiente.
+", 
+    alternativaB : "É a diminuição de volume que ocorre já no estado sólido, desde a temperatura do fim da solidificação até a temperatura ambiente.",
+    alternativaC : "É o aumento de volume que ocorre já no estado sólido, desde a temperatura do fim da solidificação até a temperatura ambiente.",
+    alternativaD : "É a variação de volume que ocorre já no estado sólido, apos o fim da solidificação.",
+    correta      : "É a variação de volume que ocorre já no estado sólido, desde a temperatura do fim da solidificação até a temperatura ambiente.",
+}
+
+const q34 = {
+    numQuestao   : 34,
+    pergunta     : "Quais as conseqüências ocasionadas pela diferença entre os volumes no estado liquido e no estado sólido final? ",
+    alternativaA : "Vazio ou chupagem, trincas e tensões ", //Esse
+    alternativaB : "quebra, vazio ou trincas",
+    alternativaC : "vazio, rechupe, tensões ",
+    alternativaD : "N.D.A",
+    correta      : "Vazio ou chupagem, trincas e tensões",
+}
+
+const q35 = {
+    numQuestao   : 35,
+    pergunta     : "Cite processos de fundição?",
+    alternativaA : "Fundição por gravidade, Sob pressão, Por centrifugação, de precisão.", //Esse
+    alternativaB : "Sob pressão, Fundição a frio, de precisão.",
+    alternativaC : "Por centrifugação, Sob pressão, Pressão ambiente",
+    alternativaD : "Fundição a frio, de precisão, Fundição por gravidade, Sob pressão.",
+    correta      : "Fundição por gravidade, Sob pressão, Por centrifugação, de precisão.",
+}
+
+const q36 = {
+    numQuestao   : 36,
+    pergunta     : "Cite quais são as impurezas encontradas na liga ferro-carbono?",
+    alternativaA : "enxofre, Fósforo, manganês, silício, hidrogênio.", 
+    alternativaB : "fósforo, oxigênio, manganês, silício",
+    alternativaC : "Fósforo, oxigênio, manganês, silício e carbono",
+    alternativaD : "Fósforo, enxofre, manganês, silício e carbono.",
+    correta      : "Fósforo, enxofre, manganês, silício e carbono.",
+}
+
+const q37 = {
+    numQuestao   : 37,
+    pergunta     : "De que material são constituídos os modelos? ",
+    alternativaA : "madeira ou alumínio", //Esse
+    alternativaB : "Areia ou ferro.",
+    alternativaC : "alumínio ou areia",
+    alternativaD : "ferro ou madeira.",
+    correta      : "madeira ou alumínio",
+}
+
+const q38 = {
+    numQuestao   : 38,
+    pergunta     : "O que é molde?",
+    alternativaA : "É o recipiente que contem as cavidades, com a forma da peça a ser fundida.", //Esse
+    alternativaB : "É o recipiente que da forma a peça.",
+    alternativaC : "É o recipiente de produtos pessoais.",
+    alternativaD : "É o recipiente utilizado para guardar a peça.",
+    correta      : "É o recipiente que contem as cavidades, com a forma da peça a ser fundida.",
+}
+
+const q39 = {
+    numQuestao   : 39,
+    pergunta     : "Quais os processos utilizados na moldagem em molde metálico ou permanente?",
+    alternativaA : "Por gravidade e sob pressão", //Esse
+    alternativaB : "Por centrifugação, Sob pressão",
+    alternativaC : "Fundição a frio, de precisão",
+    alternativaD : "Pressão ambiente, gravidade.",
+    correta      : "Por gravidade e sob pressão",
+}
+
+const q40 = {
+    numQuestao   : 40,
+    pergunta     : "Quais os tipos de areia empregados na fundição no molde de areia?",
+    alternativaA : "Areia verde, areia seca, areia cimento e areia de macho.", //Esse
+    alternativaB : "Areia molhada, Areia verde, areia cimento, areia suja.",
+    alternativaC : "Areia cristal,Areia suja, areia seca, e areia de macho.",
+    alternativaD : "Areia verde, areia cimento e areia cristal, areia molhada.",
+    correta      : "Areia verde, areia seca, areia cimento e areia de macho.",
+}
+
+const q41 = {
+    numQuestao   : 41,
+    pergunta     : "Quais características um molde de areia deve atender? ",
+    alternativaA : "resistência, resistencia a erosão, baixa produção de gas.", //Esse
+    alternativaB : "resistencia, resistencia a erosão, resistencia a ar.",
+    alternativaC : "resistencia a ar, resistencia a quente, resistência a frio.",
+    alternativaD : "resistencia, resistencia a frio, alta produção de gas.",
+    correta      : "resistência, resistencia a erosão, baixa produção de gas.",
+}
+
+const q42 = {
+    numQuestao   : 42,
+    pergunta     : "Quais os componentes de uma areia de fundição?",
+    alternativaA : "Areia, argila, carvão moído, dextrina, mogul, breu em pó e serragem.", //Esse
+    alternativaB : "Areia, argila, carvão bruto, dextrina, mogul, breu em pó.",
+    alternativaC : "Areia, carvão moído, dextrina, mogula, breu em pó e serragem",
+    alternativaD : "Areia, argila, carvão bruto, dextrina, mogul, breu em pó e serragem",
+    correta      : "Areia, argila, carvão moído, dextrina, mogul, breu em pó e serragem.",
+}
+
+const q43 = {
+    numQuestao   : 43,
+    pergunta     : "Que características as areias para a confecção de machos devem apresentar?",
+    alternativaA : "Baixa dureza, alta permeabilidade e inalterabilidade.",
+    alternativaB : "Baixa dureza, Baixa permeabilidade e inalterabilidade.",
+    alternativaC : "Alta dureza, alta permeabilidade e inalterabilidade.",
+    alternativaD : "Alta dureza, Baixa permeabilidade e inalterabilidade.",
+    correta      : "Alta dureza, alta permeabilidade e inalterabilidade.",
+}
+
+const q44 = {
+    numQuestao   : 44,
+    pergunta     : "De que são feitos os moldes permanentes? ",
+    alternativaA : "Aço ou ferro e em alguns casos utiliza-se ligas de cobre, como o bronze.",
+    alternativaB : "Aço ou ferro fundido e em alguns casos utiliza-se ligas de cobre, como o bronze.",
+    alternativaC : "Aço ou ferro fundido e em alguns casos utiliza-se ligas como o bronze.",
+    alternativaD : "Aço ou bronze.",
+    correta      : "Aço ou ferro fundido e em alguns casos utiliza-se ligas de cobre, como o bronze.",
+}
+
+const q45 = {
+    numQuestao   : 45,
+    pergunta     : "O que diferencia as peças fundidas no molde metálico, das peças fundidas em moldes de areia?",
+    alternativaA : "As peças fundidas em moldes permanentes têm Menor uniformidade, pior acabamento superficial, tolerâncias dimensionais menos estreitas e melhores propriedades mecânicas.",
+    alternativaB : "As peças fundidas em moldes permanentes têm Menor uniformidade, melhor acabamento superficial, tolerâncias dimensionais menos estreitas e piores propriedades mecânicas.",
+    alternativaC : "As peças fundidas em moldes permanentes têm maior uniformidade, melhor acabamento superficial, tolerâncias dimensionais mais estreitas e melhores propriedades mecânicas.",
+    alternativaD : "As peças fundidas em moldes permanentes têm maior uniformidade, pior acabamento superficial, tolerâncias dimensionais mais estreitas e piores propriedades mecânicas.",
+    correta      : "As peças fundidas em moldes permanentes têm maior uniformidade, melhor acabamento superficial, tolerâncias dimensionais mais estreitas e melhores propriedades mecânicas.",
+}
+
+const q46 = {
+    numQuestao   : 46,
+    pergunta     : "Cite quais são as impurezas encontradas na liga ferro-carbono?",
+    alternativaA : "Fosfato, sulfur, magnésio, sílica e grafita.",
+    alternativaB : "Enxofre, Manganês, ferrita, cementita.",
+    alternativaC : "Cromo, Vanádio, Phosphorus, aurum.",
+    alternativaD : "Fósforo, enxofre, manganês, silício e o próprio carbono.",
+    correta      : "Fósforo, enxofre, manganês, silício e o próprio carbono.",
+}
+
+const q47 = {
+    numQuestao   : 47,
+    pergunta     : "",
+    alternativaA : "",
+    alternativaB : "",
+    alternativaC : "",
+    alternativaD : "",
+    correta      : ""
+
+const q48 = {
+    numQuestao   : 48,
+    pergunta     : "",
+    alternativaA : "",
+    alternativaB : "",
+    alternativaC : "",
+    alternativaD : "",
+    correta      : "",
+}
+
+const q49 = {
+    numQuestao   : 49,
+    pergunta     : "",
+    alternativaA : "",
+    alternativaB : "",
+    alternativaC : "",
+    alternativaD : "",
+    correta      : "",
+}
+
+const q50 = {
+    numQuestao   : 50,
+    pergunta     : "",
+    alternativaA : "",
+    alternativaB : "",
+    alternativaC : "",
+    alternativaD : "",
+    correta      : "",
+}
+
+const q51 = {
+    numQuestao   : 51,
+    pergunta     : "",
+    alternativaA : "",
+    alternativaB : "",
+    alternativaC : "",
+    alternativaD : "",
+    correta      : "",
+}
+
 // CONSTANTE COM UM ARRAY DE OBJETOS COM TODAS AS QUESTOES
-const questoes = [q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28, q29, q30, q31]
+const questoes = [q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28, q29, q30, q31,
+                 q32, q33, q34, q35, q36, q37, q38, q39, q40, q41, q42, q43, q44, q45, q46, q47, q48, q49, q50, q51]
 
 let numero = document.querySelector('#numero')
 let total  = document.querySelector('#total')
