@@ -10,12 +10,31 @@
     <link rel="stylesheet" href="SENAI.css" />
 <body>
 
-        <div id= "welcome">
-            <p>Bem - Vindo.</p>
-            <input class="Nome" type="text" id="Nome" name="Nome" size="40" /> 
-            <span onclick="document.getElementById('tela1').style.visibility='visible'"
-            id="botaojogue">Jogue</span>
-        </div>
+    <div id= "ranking">
+        <h1>Ranking</h1>
+        <h2 id="top1">n/A</h2>
+        <h2 id="top2">n/A</h2>
+        <h2 id="top3">n/A</h2>
+        <span onclick="esconder1()"
+        id="botaojogue">Iniciar</span>
+    </div>
+    <div id= "instrução">
+        <h1>Algumas Regras</h1>
+        <p id="i1">Atividade de TPME do Senai.</p>
+        <h2>Não pode efetuar Duplo Click, caso ocorra, irá perder 1 ponto ou até mais</h2>
+        <h2>n/A</h2>
+        <h2>n/A</h2>
+        <h2>n/A</h2>
+        <span onclick="esconder2()"
+        id="botaojogue">Iniciar</span>
+    </div>
+
+    <div id= "welcome">
+        <p id="w1">Insira seu Nome abaixo.</p>
+        <input class="Nome" type="text" id="Nome" name="Nome" size="40" /> 
+        <span onclick="esconder3()"
+        id="botaojogue">Jogue</span>
+    </div>
 
     <main id="tela1"class="tela-principal">
 
