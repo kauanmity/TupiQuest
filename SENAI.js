@@ -1,4 +1,41 @@
 document.getElementById('tela1').style.visibility = 'hidden'
+document.getElementById('welcome').style.visibility = 'hidden'
+document.getElementById('instrução').style.visibility = 'hidden'
+document.getElementById('ranking').style.visibility = 'visible'
+
+function esconder1(){
+    document.getElementById('tela1').style.visibility = 'hidden'
+    document.getElementById('welcome').style.visibility = 'hidden'
+    document.getElementById('ranking').style.visibility = 'hidden'
+    document.getElementById('instrução').style.visibility = 'visible'
+}
+function esconder2(){
+    document.getElementById('tela1').style.visibility = 'hidden'
+    document.getElementById('welcome').style.visibility = 'visible'
+    document.getElementById('ranking').style.visibility = 'hidden'
+    document.getElementById('instrução').style.visibility = 'hidden'
+}
+function esconder3(){
+    document.getElementById('tela1').style.visibility = 'visible'
+    document.getElementById('welcome').style.visibility = 'hidden'
+    document.getElementById('ranking').style.visibility = 'hidden'
+    document.getElementById('instrução').style.visibility = 'hidden'
+}
+
+fetch('http://localhost:3000/pontuacao', {
+    method: 'get',
+    headers: {
+        'Content-Type': 'application/json',
+    }
+    })
+    .then(response => response.json())
+    .catch(error => console.error('Error:', error))
+    .then(response => {
+        document.getElementById("top1").innerHTML = "TOP 1: " + response.sort((a, b) => b.score - a.score)[0].player + " - [ " + response.sort((a, b) => b.score - a.score)[0].score + " ]"
+        document.getElementById("top2").innerHTML = "TOP 2: " + response.sort((a, b) => b.score - a.score)[1].player + " - [ " + response.sort((a, b) => b.score - a.score)[1].score + " ]"
+        document.getElementById("top3").innerHTML = "TOP 3: " + response.sort((a, b) => b.score - a.score)[2].player + " - [ " + response.sort((a, b) => b.score - a.score)[2].score + " ]"
+});
+
 let titulo = document.querySelector('h1')
 let instrucoes = document.querySelector('#instrucoes')
 let aviso = document.querySelector('#aviso')
@@ -354,8 +391,7 @@ const q32 = {
 const q33 = {
     numQuestao   : 33,
     pergunta     : " O que é contração sólida no metal vazado?",
-    alternativaA : " É a variação de volume que ocorre já no estado sólido, desde a temperatura do fim da solidificação até a temperatura ambiente.
-", 
+    alternativaA : " É a variação de volume que ocorre já no estado sólido, desde a temperatura do fim da solidificação até a temperatura ambiente.", 
     alternativaB : "É a diminuição de volume que ocorre já no estado sólido, desde a temperatura do fim da solidificação até a temperatura ambiente.",
     alternativaC : "É o aumento de volume que ocorre já no estado sólido, desde a temperatura do fim da solidificação até a temperatura ambiente.",
     alternativaD : "É a variação de volume que ocorre já no estado sólido, apos o fim da solidificação.",
@@ -500,7 +536,7 @@ const q47 = {
     alternativaC : "",
     alternativaD : "",
     correta      : ""
-
+}
 const q48 = {
     numQuestao   : 48,
     pergunta     : "",
@@ -597,6 +633,11 @@ function desbloquearAlternativas() {
     d.classList.remove('bloqueado')
 }
 
+alternativas.addEventListener('dblclick', () => {
+    pontos -= 1 // tirar 10 pontos em caso de duplo click
+    if(numQuestao.value == 1 && pontos == 52) { pontos = 51 }
+})
+
 var audioerrou = new Audio('errou.mp3');
 var audioacertou = new Audio('acertou.mp3');
 var audiometademenos = new Audio('tiroumetademenos.mp3');
@@ -620,6 +661,7 @@ function verificarSeAcertou(nQuestao, resposta) {
         //respostaEsta.textContent = "Correta 😊"
         pontos += 1 // pontos = pontos + 10
         audioacertou.play();
+
     } else {
         //console.log("Errou!")
         //respostaEsta.textContent = "Errada 😢"
