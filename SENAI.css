@@ -34,6 +34,17 @@ main {
   }
 }
 
+#instrução{
+  text-align: center;
+  padding: 1.5rem;
+  border: 10px solid #000000;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 100px;
+}
 
 section {
     width: 100%;
@@ -80,11 +91,26 @@ h1 {
 }
 
 #welcome{
-  width: 500px;
-  height: 200px;
-  margin: 10px;
-  padding: 10px;
   text-align: center;
+  padding: 1.5rem;
+  border: 10px solid #000000;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 100px;
+}
+#ranking{
+  text-align: center;
+  padding: 1.5rem;
+  border: 10px solid #000000;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 100px;
 }
 #botaojogue {
   background-color: #4CAF50;
