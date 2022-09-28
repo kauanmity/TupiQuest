@@ -1,13 +1,13 @@
 document.getElementById('tela1').style.visibility = 'hidden'
 document.getElementById('welcome').style.visibility = 'hidden'
-document.getElementById('instrução').style.visibility = 'hidden'
-document.getElementById('ranking').style.visibility = 'visible'
+document.getElementById('instrução').style.visibility = 'visible'
+document.getElementById('ranking').style.visibility = 'hidden'
 
 function esconder1(){
     document.getElementById('tela1').style.visibility = 'hidden'
     document.getElementById('welcome').style.visibility = 'hidden'
-    document.getElementById('ranking').style.visibility = 'hidden'
-    document.getElementById('instrução').style.visibility = 'visible'
+    document.getElementById('ranking').style.visibility = 'visible'
+    document.getElementById('instrução').style.visibility = 'hidden'
 }
 function esconder2(){
     document.getElementById('tela1').style.visibility = 'hidden'
