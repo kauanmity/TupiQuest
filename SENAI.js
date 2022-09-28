@@ -686,7 +686,7 @@ function fimDoJogo() {
 
     let pont = ''
     
-    if (pontos === 0){
+    /*if (pontos === 0){
         audiotirouzero.play()
     }else if (pontos === 30){
         audiotiroudez.play()      
@@ -694,7 +694,7 @@ function fimDoJogo() {
         audiometademenos.play()      
     }else if (pontos >= 16){
         audiometademais.play()      
-    }
+    }*/
 
 
     pontos == 0 ? pont = 'ponto' : pont = 'pontos'
