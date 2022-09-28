@@ -530,56 +530,46 @@ const q46 = {
 
 const q47 = {
     numQuestao   : 47,
-    pergunta     : "",
-    alternativaA : "",
-    alternativaB : "",
-    alternativaC : "",
-    alternativaD : "",
-    correta      : ""
+    pergunta     : "Em uma usina siderúrgica, o processo de sinterização tem como finalidade:",
+    alternativaA : "Aglomerar o carvão mineral em temperaturas elevadas para uso nos reatores de redução.",
+    alternativaB : "Aglomerar finos de minério de ferro em alta temperatura para uso no alto-forno.",
+    alternativaC : "Reciclar os resíduos gerados nas diversas etapas de obtenção do aço.",
+    alternativaD : "Compactar os finos de ferro-esponja para uso em forno elétrico a arco.",
+    correta      : "Aglomerar finos de minério de ferro em alta temperatura para uso no alto-forno."
 }
 const q48 = {
     numQuestao   : 48,
-    pergunta     : "",
-    alternativaA : "",
-    alternativaB : "",
-    alternativaC : "",
-    alternativaD : "",
-    correta      : "",
+    pergunta     : "Assinale a alternativa que corresponde à matéria-prima que origina, respectivamente, o coque metalúrgico e o reator em que esse material é utilizado.",
+    alternativaA : "Carvão vegetal; Reatores de redução direta.",
+    alternativaB : "Antracito; Reatores de redução direta.",
+    alternativaC : "Carvão vegetal; Alto-forno.",
+    alternativaD : "Carvão mineral; Alto-forno.",
+    correta      : "Carvão mineral; Alto-forno.",
 }
 
 const q49 = {
     numQuestao   : 49,
-    pergunta     : "",
-    alternativaA : "",
-    alternativaB : "",
-    alternativaC : "",
-    alternativaD : "",
-    correta      : "",
+    pergunta     : "Defeitos cristalinos estão presentes em praticamente todos os materiais metálicos e possuem papéis importantes nas suas propriedades. São exemplos de defeitos pontuais, lineares e superficiais,respectivamente:",
+    alternativaA : "Contornos de macla, discordâncias e contornos de grão.",
+    alternativaB : "Contornos de grão, lacunas e discordâncias.",
+    alternativaC : "Lacunas, discordâncias e contornos de grão.",
+    alternativaD : "Lacunas, contornos de macla e discordâncias.",
+    correta      : "Lacunas, discordâncias e contornos de grão.",
 }
 
 const q50 = {
     numQuestao   : 50,
-    pergunta     : "",
-    alternativaA : "",
-    alternativaB : "",
-    alternativaC : "",
-    alternativaD : "",
-    correta      : "",
-}
-
-const q51 = {
-    numQuestao   : 51,
-    pergunta     : "",
-    alternativaA : "",
-    alternativaB : "",
-    alternativaC : "",
-    alternativaD : "",
-    correta      : "",
+    pergunta     : "Para um aço-C com 0,5% de carbono em peso, a porcentagem em peso das fases encontradas em sua microestrutura a 400 °C (assumindo que o teor de carbono dissolvido na ferrita seja desprezível e que a condição de equilíbrio do diagrama acima foi atingida) será:",
+    alternativaA : "80,5% Ferrita e 19,5% Cementita.",
+    alternativaB : "7,5% Ferrita e 92,5% Cementita.",
+    alternativaC : "90,5% Ferrita, 5,5% Cementita e 4% Austenita.",
+    alternativaD : "92,5% Ferrita e 7,5% Cementita.",
+    correta      : "92,5% Ferrita e 7,5% Cementita.",
 }
 
 // CONSTANTE COM UM ARRAY DE OBJETOS COM TODAS AS QUESTOES
 const questoes = [q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28, q29, q30, q31,
-                 q32, q33, q34, q35, q36, q37, q38, q39, q40, q41, q42, q43, q44, q45, q46, q47, q48, q49, q50, q51]
+                 q32, q33, q34, q35, q36, q37, q38, q39, q40, q41, q42, q43, q44, q45, q46, q47, q48, q49, q50]
 
 let numero = document.querySelector('#numero')
 let total  = document.querySelector('#total')
